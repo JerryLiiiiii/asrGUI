@@ -1,0 +1,84 @@
+# Meeting, reference, and exported media
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.wma
+*.aiff
+*.caf
+*.webm
+*.mp4
+*.mov
+
+# Credentials and sensitive local configuration
+.env
+.env.*
+!.env.example
+secrets.local.json
+secrets*.json
+!.secrets.example.json
+credentials*.json
+!.credentials.example.json
+api_key*.json
+api-key*.json
+apikey*.json
+api_keys.local.json
+tokens*.json
+token.local.json
+*token.local.json
+auth-token*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+id_rsa
+id_ed25519
+.netrc
+.pypirc
+
+# Experimental application workspace and user data
+AppFile/
+igore_files/
+
+# Development, build, and packaging artifacts
+Codex_work_space/.venv/
+Codex_work_space/build/
+Codex_work_space/dist/
+Codex_work_space/vendor/models/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Model weights and bulky generated assets
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+*.bin
+
+# Logs, temporary files, and local diagnostics
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# macOS and Windows metadata
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Local editor state
+.idea/
+.vscode/
