@@ -49,6 +49,8 @@ Codex_work_space/.venv/
 Codex_work_space/build/
 Codex_work_space/dist/
 Codex_work_space/vendor/models/
+Codex_work_space/vendor/ffmpeg/
+Codex_work_space/vendor/*.zip
 **/__pycache__/
 *.py[cod]
 *.egg-info/

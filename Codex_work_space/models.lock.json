@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-25T15:58:35.485736+00:00",
+  "models": {
+    "asr": {
+      "alias": "paraformer-zh",
+      "directory": "paraformer-zh",
+      "source": "iic/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+      "revision": "master@2026-10-25",
+      "license": "Apache-2.0",
+      "required": [
+        "configuration.json",
+        "config.yaml",
+        "model.pt"
+      ],
+      "local_directory": "paraformer-zh",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size_bytes": 1506,
+          "sha256": "250c7e711fdc0cb21d71417b4dd84fe42790c67f6e34003b9e53795b2655983b"
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 13677,
+          "sha256": "c92fa06ad63cc9962b9515eb23872f8ed8052fecb4f2df90ec7d0cdbaf916b9f"
+        },
+        {
+          "path": "am.mvn",
+          "size_bytes": 11203,
+          "sha256": "29b3c740a2c0cfc6b308126d31d7f265fa2be74f3bb095cd2f143ea970896ae5"
+        },
+        {
+          "path": "asr_example_hotword.wav",
+          "size_bytes": 253642,
+          "sha256": "51792bc95be33075c1a8abb9afb76ad9f72943e84cd723cc8825b2678799b004"
+        },
+        {
+          "path": "config.yaml",
+          "size_bytes": 3477,
+          "sha256": "6602efa95e4c7248e1d1030f7ff454a3c9af0f57c335ed87f35260cd7faec35d"
+        },
+        {
+          "path": "configuration.json",
+          "size_bytes": 478,
+          "sha256": "1acac324430b5a4680ef5ee2947575443ab2039a92c8a0551665f6bc9a606b41"
+        },
+        {
+          "path": "example/asr_example.wav",
+          "size_bytes": 144770,
+          "sha256": "2ffa478de2cd570dd54e8762008cd6bbde9871fd79757f1cdbbec7d6b7b49274"
+        },
+        {
+          "path": "example/hotword.txt",
+          "size_bytes": 7,
+          "sha256": "c16dbde81120bb4be3a3a0838ec692da0ab4f0b6503aea9348bf318186e5a452"
+        },
+        {
+          "path": "fig/res.png",
+          "size_bytes": 196655,
+          "sha256": "1f59ebc6a86733896b2b84110e2aae5625754382762bf1324e017d89a152c2fb"
+        },
+        {
+          "path": "fig/seaco.png",
+          "size_bytes": 170780,
+          "sha256": "6886864eb6bcc6487a17111b5e3353bd72e7c78fda98c27cf47faa35eafbdcaf"
+        },
+        {
+          "path": "model.pt",
+          "size_bytes": 989763045,
+          "sha256": "3d491689244ec5dfbf9170ef3827c358aa10f1f20e42a7c59e15e688647946d1"
+        },
+        {
+          "path": "seg_dict",
+          "size_bytes": 8287834,
+          "sha256": "59a2ef803a3f1648ad03a2e1480db1c1ee0c0d7dc4ef4dbd16cea33944329022"
+        },
+        {
+          "path": "tokens.json",
+          "size_bytes": 93676,
+          "sha256": "2b20c2b12572d682afff84ce1c8d560f67b8b32a4c1f21567411d141ed352127"
+        }
+      ],
+      "size_bytes": 998940750
+    },
+    "vad": {
+      "alias": "fsmn-vad",
+      "directory": "fsmn-vad",
+      "source": "iic/speech_fsmn_vad_zh-cn-16k-common-pytorch",
+      "revision": "master@2026-10-25",
+      "license": "Apache-2.0",
+      "required": [
+        "configuration.json",
+        "config.yaml",
+        "model.pt"
+      ],
+      "local_directory": "fsmn-vad",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size_bytes": 1414,
+          "sha256": "f3d04437c926962476701a7939d22f21400b4eb0bdd31a15f0012576f2d00932"
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 11567,
+          "sha256": "42377011603a186fc2bae41a5cc5e548ebf98d8ec307bbae9dd405f82567f543"
+        },
+        {
+          "path": "am.mvn",
+          "size_bytes": 8040,
+          "sha256": "6820fef9687708c4fc3fab2530179c8fcea6262daa25514380056cd8f6eb1754"
+        },
+        {
+          "path": "config.yaml",
+          "size_bytes": 1215,
+          "sha256": "486861ca26ddb79081663b6179cb204c6bfae71c52f04aafc48a9e9d8dde1e93"
+        },
+        {
+          "path": "configuration.json",
+          "size_bytes": 365,
+          "sha256": "7bce8867e37d55c3dd8f672695ced18077a2be199ea529a5d432d5350fc0acba"
+        },
+        {
+          "path": "example/vad_example.wav",
+          "size_bytes": 2261722,
+          "sha256": "a7431f0169ef76ef630c945a1d2c3675d8c8c2df2ae4a6b16f8a88ba1bccfbbb"
+        },
+        {
+          "path": "fig/struct.png",
+          "size_bytes": 27914,
+          "sha256": "c745bcc2fd4952fb1fe5a0f7f9fdabda510c3771e7a47dd22be605e26db4ee2c"
+        },
+        {
+          "path": "model.pt",
+          "size_bytes": 1721366,
+          "sha256": "b3be75be477f0780277f3bae0fe489f48718f585f3a6e45d7dd1fbb1a4255fc5"
+        }
+      ],
+      "size_bytes": 4033603
+    },
+    "punctuation": {
+      "alias": "ct-punc",
+      "directory": "ct-punc",
+      "source": "iic/punc_ct-transformer_cn-en-common-vocab471067-large",
+      "revision": "master@2026-10-25",
+      "license": "Apache-2.0",
+      "required": [
+        "configuration.json",
+        "config.yaml",
+        "model.pt"
+      ],
+      "local_directory": "ct-punc",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size_bytes": 1458,
+          "sha256": "bc7177460104c4a1b762899a2c158fed192e0c4db70c974f169b5136cdf17acc"
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 11561,
+          "sha256": "d1f2f3c30db716fb995208608d4305b045f6ef7b7b46a84e7e2d200160df50e0"
+        },
+        {
+          "path": "config.yaml",
+          "size_bytes": 812,
+          "sha256": "c5ffb25cd063ed366cb26283908dca05a08ecfef8e90bef1d498ef9ffacd7552"
+        },
+        {
+          "path": "configuration.json",
+          "size_bytes": 450,
+          "sha256": "7043245e6264cea789404e498a6f55a330a18585a4690d35dfe71741e6982237"
+        },
+        {
+          "path": "example/punc_example.txt",
+          "size_bytes": 863,
+          "sha256": "1905542a6e78e344504a3b56cbc772eb391a20eb7eac71830f837852b558dd0c"
+        },
+        {
+          "path": "fig/struct.png",
+          "size_bytes": 154534,
+          "sha256": "90e5bdca14b00d4bbcafcbb1e9e2ca0e3905afb2b3b3129e5fd85d49b059812c"
+        },
+        {
+          "path": "jieba.c.dict",
+          "size_bytes": 41536866,
+          "sha256": "eb0a68f8bfa65e6956d59e8f9652b49f5c91952273e24737bc9a8c5e23055221"
+        },
+        {
+          "path": "jieba_usr_dict",
+          "size_bytes": 11280857,
+          "sha256": "059aa2af152734d5fd011a4d69cbab171f62347074db0db5157c17b5649010f5"
+        },
+        {
+          "path": "model.pt",
+          "size_bytes": 1125507622,
+          "sha256": "7176cae922a872e130e6b88aef9a1153581711baf79c9124c7c95be383cd6f81"
+        },
+        {
+          "path": "tokens.json",
+          "size_bytes": 8280697,
+          "sha256": "89951fe0669380ed33298ee048c4a2b0ebcaaf6ee8f332d85c281c41d0f38392"
+        }
+      ],
+      "size_bytes": 1186775720
+    },
+    "speaker": {
+      "alias": "cam++",
+      "directory": "campplus",
+      "source": "iic/speech_campplus_sv_zh-cn_16k-common",
+      "revision": "master@2026-10-25",
+      "license": "Apache-2.0",
+      "required": [
+        "configuration.json",
+        "config.yaml",
+        "campplus_cn_common.bin"
+      ],
+      "local_directory": "campplus",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size_bytes": 1414,
+          "sha256": "f3d04437c926962476701a7939d22f21400b4eb0bdd31a15f0012576f2d00932"
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 6732,
+          "sha256": "85e7f149c9d5910da9dbdd4ab5206e33db85e9763107d439a09ef40b004e2f4c"
+        },
+        {
+          "path": "campplus_cn_common.bin",
+          "size_bytes": 28036335,
+          "sha256": "3388cf5fd3493c9ac9c69851d8e7a8badcfb4f3dc631020c4961371646d5ada8"
+        },
+        {
+          "path": "config.yaml",
+          "size_bytes": 537,
+          "sha256": "17342041bd5b22f6fd7e32f6e7a267b0bf65f018c0a721bada6547e3d28fbfc9"
+        },
+        {
+          "path": "configuration.json",
+          "size_bytes": 581,
+          "sha256": "6f7acaf1e81ca121f4a3c71b6ddb66beec24350a3ef330e2c846f17829176a8f"
+        },
+        {
+          "path": "ding.png",
+          "size_bytes": 78786,
+          "sha256": "f351dc222490a12cadbaa654343cccfce23d7d4f0208fb91d9701e2191bcfaff"
+        },
+        {
+          "path": "examples/speaker1_a_cn_16k.wav",
+          "size_bytes": 118932,
+          "sha256": "5f20ce0ddc378ca3239d3ce864b1142726a46a1221ae553912e4e142045df58b"
+        },
+        {
+          "path": "examples/speaker1_b_cn_16k.wav",
+          "size_bytes": 157058,
+          "sha256": "20745dc08a4281894d146140b99b9ef7417ac681119b7f7202f553cdf1a85f65"
+        },
+        {
+          "path": "examples/speaker2_a_cn_16k.wav",
+          "size_bytes": 170028,
+          "sha256": "8a6cffa452df32ef10503f7992f22ffcdd7f16c4e0273d13311bc5cdcb13abf4"
+        },
+        {
+          "path": "quickstart.md",
+          "size_bytes": 1530,
+          "sha256": "e16e6134b030b7fea46f6729246b18c2945d755b4070ab78b513fe4fab38b6e3"
+        },
+        {
+          "path": "requirements.txt",
+          "size_bytes": 19,
+          "sha256": "c6d1bd9fd0c46b2cd29a6dab9859d99355e8c621dd726d4cde5c1d650c8faca0"
+        },
+        {
+          "path": "structure.png",
+          "size_bytes": 286018,
+          "sha256": "1ff916275cbfe40e1e5584ef66f81b776ef992e9997d8658328394d023dba1b8"
+        }
+      ],
+      "size_bytes": 28857970
+    }
+  }
+}
